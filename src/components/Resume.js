@@ -1,12 +1,13 @@
 import React from 'react';
+import '../styles/Resume.css';
 
 const Resume = () => {
     return (
-        <section>
-            <h2>My Resume</h2>
-            <p>Short intro about your experience and skills.</p>
-            <a href="path/to/your/resume.pdf" download>Download My Resume</a>
-        </section>
+        <div className="resume">
+            <h2>Resume</h2>
+            <p>Here's a little bit about my experience and skills...</p>
+            <a href="path-to-your-resume.pdf" download>Download My Resume</a>
+        </div>
     );
 };
 

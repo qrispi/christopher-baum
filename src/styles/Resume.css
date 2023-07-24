@@ -1,0 +1,30 @@
+.resume {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .resume h2 {
+    font-size: 2em;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+  }
+  
+  .resume p {
+    font-size: 1.2em;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+  }
+  
+  .resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    border-radius: 5px;
+  }
+  
+  .resume a:hover {
+    background-color: var(--color-tertiary);
+    color: var(--color-primary);
+  }
+  
