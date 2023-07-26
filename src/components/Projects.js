@@ -1,16 +1,19 @@
 import React from 'react';
+import '../styles/Projects.css';
 
 const Projects = () => {
     return (
-        <section>
-            <h2>My Projects</h2>
-            <div>
-                <h3>Project 1</h3>
-                <p>Short description about Project 1.</p>
-                <a href="https://project1.com">Project Link</a>
+        <div className="projects container">
+            <h2>Projects</h2>
+            <div className="project-list">
+                <div className="project-card">
+                    <h3>Project 1</h3>
+                    <p>Description of the project...</p>
+                    <a href="link-to-project">See More</a>
+                </div>
+                {/* Repeat for more projects... */}
             </div>
-            {/* Additional project sections can be added similarly */}
-        </section>
+        </div>
     );
 };
 
